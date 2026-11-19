@@ -2,15 +2,16 @@
 C++ program demonstrating all types of constructors ( default ,parametrized ,copy ,move ) ,applying the rule of 5 verify 
 
 #include <iostream>
-#include <utility> // for std::move
-
+#include <utility>
 using namespace std;
 
 class Student {
 private:
+
     int *marks;
 
 public:
+
     // 1. Default Constructor
     Student() {
         marks = new int(0);
